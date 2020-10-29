@@ -8,3 +8,5 @@ var splitInteger = function(num, parts) {
         array[i] = Math.floor(num / parts) + (i < num % parts);
       return array;
     }
+// Test examples
+    console.log(splitInteger(20, 6))  // returns [3, 3, 3, 3, 4, 4]
